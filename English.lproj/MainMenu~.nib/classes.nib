@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {clear = id; createDmg = id; }; 
+            CLASS = KomodoDropCtrlr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                clearButton = NSButton; 
+                createButton = NSButton; 
+                filelist = KomodoTableView; 
+                progress = NSProgressIndicator; 
+                totalSize = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = KomodoFileList; LANGUAGE = ObjC; SUPERCLASS = NSScrollView; }, 
+        {CLASS = KomodoTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }
+    ); 
+    IBVersion = 1; 
+}
